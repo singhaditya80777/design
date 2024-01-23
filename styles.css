@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .body-container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .border {
+    flex: 1;
+    background-color: grey;
+    text-align: center;
+    position: relative;
+  }
+  
+  .b1 {
+    padding-right: 50%;
+    height: 60vh;
+    color: rgb(232, 232, 226);
+    margin: 0 3%;
+    background-color: #2e1b50;
+    z-index: 2;
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.5);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  
+  button {
+    background-color: #955AFF;
+    color: white;
+    padding: 10px 20px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 150px;
+    height: 40px;
+    margin-left: 2%;
+  }
+  
+  button:hover {
+    background-color: red;
+  }
+  
+  .b1 img {
+    position: absolute;
+    right: 50%;
+    transform: translateX(50%);
+  }
+  
+  h2 {
+    padding: 3% 0;
+    padding-left: 3%;
+    font-family: 'Jura', sans-serif;
+  }
+  
+  h1 {
+    padding: 3% 0;
+    padding-left: 3%;
+    font-family: 'Jura', sans-serif;
+    font-size: 60px;
+    font-weight: 500;
+  }
+  
+  h3 {
+    padding: 4% 0;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 3%;
+    font-family: 'Jura', sans-serif;
+    font-size: 14px;
+    width: 50%;
+  }
+  
+  #b2 img {
+    width: 100%; /* Ensure the image width is 100% of its container */
+    height: auto; /* Maintain the aspect ratio of the image */
+  }
+  
